@@ -89,7 +89,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	line-height: 23px;
-	color: #727272;
+	color: #8a8484;
 }
 
 /* a link Styles
@@ -259,7 +259,9 @@ ul {
 }
 
 /*=============== Text Colors ============= */
-
+.font-size-16{
+	font-size: 16px;
+}
 .text-white {
 	color: #fff;
 }
@@ -726,7 +728,14 @@ a:hover.text-hover-primary {
 padding-right:0;
 padding-left:0;
 }
+/*=============== Sector CSS ============= */
 
+.text-sector{
+	font-size: 18px;
+	color: #fcc136;
+	margin-left: 10px;
+	line-height: 24px;
+}
 /*=============== site main structure ============= */
 
 .site-wrapper {
@@ -1683,6 +1692,13 @@ a.read-more.primary:hover {
 	color: #fff;
 }
 
+.img-expertise{
+	
+	height: 250px;
+	float: right;
+	border-radius: 6%;
+
+}
 
 /*============ Image Boxes ============ */
 
@@ -2652,6 +2668,16 @@ a.topbar-btn:hover, a.topbar-btn.active {
 	color:#fff;
     padding: 0 10px;
 }
+/*float
+-------------------*/
+
+.float-right{
+	float:right;
+}
+.float-left{
+	float:left;
+}
+
 /* Footer title
  ------------------------------ */
  
@@ -2860,14 +2886,15 @@ a.topbar-btn:hover, a.topbar-btn.active {
 	display: inline-block;
 }
 .footer-social-icons li a {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     text-align: center;
     line-height: 40px;
     display: inline-block;
     padding: 0px;
     color: #fff;
-    background-color: #101010;
+	background-color: #101010;
+	font-size: 22px;
 }
 .footer-social-icons.round li a {
 	border-radius:100%;
@@ -2957,6 +2984,24 @@ ul.footer-flickr {
 .footer-flickr li.mar-r {
 	margin-right:11px;
 }
+.foot-margin{
+	
+}
+.foot-flag{
+	width: 24px;
+	height: 24px;
+}
+
+.footer-1{
+	padding-left: 50px ;
+}
+.footer-2{
+	padding-left: 100px;
+}
+.footer-3{
+	padding-left: 130px;
+}
+
 
 /* ---------- Footer opening list ---------- */
 .fo-opening-list {
@@ -3063,6 +3108,9 @@ ul.footer-flickr {
 
 .section-light-2 {
 	background-color: #f9f8f7;
+}
+.section-light-3 {
+	background-color: #c9d9ee;
 }
 
 /* section background white
@@ -3271,12 +3319,6 @@ ul.footer-flickr {
 	margin: 0;
 	background: url(../images/bg-pattrens/pattren29.jpg) 0 0 repeat;
 }
-.section-pattren-38 {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	background: url(../images/bg-pattrens/pattern38.jpg) 0 0 repeat;
-}
 .section-pattren-30 {
 	width: 100%;
 	height: 100%;
@@ -3318,9 +3360,23 @@ ul.footer-flickr {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	filter: blur(1px);
-	-webkit-filter: blur(8px);
+	-webkit-filter: blur(8px);	
+}
 
+.section-pattren-36 {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: url(../images/bg-pattrens/pattren36.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	
+}
+.section-pattren-38 {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: url(../images/bg-pattrens/pattern38.jpg) 0 0 repeat;
 }
 
 
@@ -4701,7 +4757,15 @@ width:100%;
 }
 
 
-
+.footer-1{
+	padding-left:50px;
+}
+.footer-2{
+	padding-left: 50px;
+}
+.footer-3{
+	padding-left: 50px;
+}
 
 
 }
@@ -4903,7 +4967,9 @@ padding-left:0px;
 	max-height: 120px;
 }
 
- 
+.foot-margin{
+	margin-left: unset;
+}
 }
 
 

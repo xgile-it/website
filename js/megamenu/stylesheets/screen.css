@@ -128,7 +128,7 @@
 
 /* line 56, ../sass/screen.scss */
 .header-section ul li.active > a {
-  color: #ff971c;
+  color: #fcc136 !important;
 }
 /* line 60, ../sass/screen.scss */
 .header-section ul li .number {
@@ -400,6 +400,12 @@
   margin-top: 25px;
   max-height: none !important;
   opacity: 1 !important;
+}
+.header-section ul li .nav-icon {
+  display: none;
+  float: right;
+  font-size: 18px;
+
 }
 
 
@@ -760,7 +766,7 @@
   }
   /* line 598, ../sass/screen.scss */
   .header-section ul li:hover > a, .header-section ul li.active > a {
-    color: #ff971c;
+    color: #fcc136 !important;
   }
 .header-section ul li ul li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1559,6 +1565,7 @@
   .header-section ul li.cart-parent {
     position: static;
   }
+  
   /* line 888, ../sass/screen.scss */
   .header-section ul li.cart-parent.active > a {
     color: #f51e46;
@@ -1898,7 +1905,11 @@
 /* ---------- MAX 360PX ---------- */
 @media screen and (max-width: 768px) {
 
+  .header-section ul li .nav-icon {
+    display: inline-block;
+    
 
+  }
 
 }
 /* ---------- MAX 360PX ---------- */
