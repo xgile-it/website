@@ -61,7 +61,7 @@
 /* line 56, ../sass/screen.scss */
 .loader-live {
   z-index: 9999991;
-  background: #fff;
+  background: rgb(0, 0, 0);
 }
 
 /* line 62, ../sass/screen.scss */
@@ -101,10 +101,11 @@
   display: inline-block;
   height: 35px;
   width: 10px;
-  background-color: #f51e46;
+  background-color: #fcd736;
   border-radius: 2px;
   margin: 2px;
   animation-fill-mode: both;
+  
 }
 /* line 100, ../sass/screen.scss */
 .loader-item.style3 > div:nth-child(1) {
@@ -239,7 +240,7 @@
 }
 /* line 223, ../sass/screen.scss */
 .loader-item.style7 > div {
-  background-color: #f51e46;
+  background-color: #ff971c;
   border-radius: 100%;
   height: 15px;
   left: 30px;
@@ -290,11 +291,11 @@
 /* line 271, ../sass/screen.scss */
 .loader-item.style9 > div {
   animation-fill-mode: both;
-  border: 1px solid #f51e46;
+  border: 1px solid #524d4d98;
   border-radius: 100%;
   height: 10px;
   position: absolute;
-  background: #f51e46;
+  background: #ff971c;
   width: 10px;
 }
 /* line 279, ../sass/screen.scss */

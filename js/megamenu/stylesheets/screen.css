@@ -128,7 +128,7 @@
 
 /* line 56, ../sass/screen.scss */
 .header-section ul li.active > a {
-  color: #fcc136 !important;
+  color: #fcd736 !important;
 }
 /* line 60, ../sass/screen.scss */
 .header-section ul li .number {
@@ -766,7 +766,7 @@
   }
   /* line 598, ../sass/screen.scss */
   .header-section ul li:hover > a, .header-section ul li.active > a {
-    color: #fcc136 !important;
+    color: #fcd736  !important;
   }
 .header-section ul li ul li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1464,18 +1464,18 @@
   }
   /* line 783, ../sass/screen.scss */
   .header-section #menu > ul {
-    background: #fff;
+    background: #161616;
     margin: 0px;
   }
 
   /* line 786, ../sass/screen.scss */
   .header-section #menu > ul li {
     position: relative;
-    border-bottom: 1px solid #ececec;
+    border-bottom: 1px solid #0c0c0c;
   }
   /* line 787, ../sass/screen.scss */
   .header-section #menu > ul li a {
-    color: #242424;
+    color: #727272;
     padding: 15px 25px;
     text-transform: none;
   }
