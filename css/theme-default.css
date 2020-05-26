@@ -4756,9 +4756,14 @@ background-color: #fff;
 }
 .ticker-wrap .ticker__item {
 	display: inline-block;
-	padding: 20px 15px;
+	padding: 15px;
 	font-size: 2rem;
 	color: white;
+}
+
+.ticker-wrap .ticker__item img{
+	
+	height: 70px;
 }
 
 
